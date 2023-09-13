@@ -1,0 +1,6 @@
+
+LIBRARY logger.sys
+EXPORTS
+  DllInitialize PRIVATE
+  DllUnload PRIVATE
+  __log 
